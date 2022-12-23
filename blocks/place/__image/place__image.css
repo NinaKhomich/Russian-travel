@@ -1,0 +1,12 @@
+.place__image {
+  max-width: calc(100% + 32px);
+  width: calc(100% + 32px);
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .place__image {
+    width: 100%;
+    align-self: start;
+  }
+}
