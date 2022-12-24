@@ -38,5 +38,6 @@
 @media (min-width: 1280px) {
   .place {
     grid-template-columns: 460px 484px;
+    column-gap: 40px;
   }
 }
