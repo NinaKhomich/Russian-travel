@@ -4,30 +4,16 @@
   text-decoration: none;
   font-size: 24px;
   line-height: 24px;
+  transition: opacity .6s;
 }
 
-.footer__links-item:not(:last-child) .footer__link {
-  margin-bottom: 32px;
+.footer__link:hover {
+  opacity: .8;
 }
 
 @media screen and (min-width: 768px) {
   .footer__link {
     font-size: 16px;
     line-height: 18px;
-  }
-
-  .footer__links-item:not(:last-child) .footer__link {
-    margin-bottom: 0;
-    margin-right: 19px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .footer__link {
-    transition: opacity .6s;
-  }
-
-  .footer__link:hover {
-    opacity: .8;
   }
 }

@@ -1,5 +1,5 @@
 .cover__link {
-  padding: 33px 16px;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,27 +8,27 @@
   text-decoration: none;
   color: #fff;
   background-color: rgba(42, 44, 47, .3);
+  transition: background-color .6s;
+}
+
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, .8);
 }
 
 @media screen and (min-width: 768px) {
   .cover__link {
-    padding: 115px 104px;
+    min-height: 480px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__link {
-    padding: 195px 232px;
-    transition: background-color .6s;
-  }
-
-  .cover__link:hover {
-    background-color: rgba(42, 44, 47, .8);
+    min-height: 640px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__link {
-    padding: 245px 312px;
+    min-height: 740px;
   }
 }
