@@ -13,4 +13,4 @@
 
 **Ссылка на GitHub Pages**
 
-https://ninakhomich.github.io/russian-travel/
+https://ninakhomich.github.io/Russian-travel/
