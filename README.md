@@ -13,4 +13,4 @@
 
 **Ссылка на GitHub Pages**
 
-https://ninakhomich.github.io/other-name-for-public/
+https://ninakhomich.github.io/russian-travel/
